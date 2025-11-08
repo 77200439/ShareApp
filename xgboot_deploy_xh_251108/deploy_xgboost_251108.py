@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 import os
-import shap
-import matplotlib.pyplot as plt
+# import shap
+# import matplotlib.pyplot as plt
 
 # 加载模型
 # 获取当前文件的目录
