@@ -19,7 +19,7 @@ explainer = shap.TreeExplainer(model)  # 直接用原始XGB模型初始化
 plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示异常
 
 # 设置 Streamlit 应用的标题
-st.title("Prediction of PCI based on XGBoost model")
+st.title("Prediction of PCI based on Random Forest model")
 
 st.sidebar.header("Selection Panel")
 # st.sidebar.subheader("Picking up parameters")
