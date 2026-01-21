@@ -45,9 +45,9 @@ st.sidebar.header("Selection Panel")
 SBP = st.sidebar.slider(r"SBP(mmHg)", min_value=88, max_value=225, value=90, step=1)
 PLT = st.sidebar.slider(r"PLT($10^3/\mu$L)", min_value=18, max_value=644, value=212, step=1)
 UA = st.sidebar.slider(r"UA($\mu$mol/L)", min_value=68, max_value=607, value=270, step=1)
-BAD = st.sidebar.slider(r"BAD(mm)", min_value=1.9, max_value=7.0, value=4.7, step=0.1)
 TG = st.sidebar.slider(r"TG(mg/dL)", min_value=0.46, max_value=7.32, value=1.73, step=0.01)
-BAL = st.sidebar.slider(r"RBC(mm)", min_value=0.2, max_value=36.4, value=27.0, step=0.1)
+BAD = st.sidebar.slider(r"BAD(mm)", min_value=1.9, max_value=7.0, value=4.7, step=0.1)
+BAL = st.sidebar.slider(r"BAL(mm)", min_value=0.2, max_value=36.4, value=27.0, step=0.1)
 BAMD = st.sidebar.slider(r"BAMD(mm)", min_value=0.0, max_value=12.5, value=0.0, step=0.1)
 
 input_data = pd.DataFrame({
